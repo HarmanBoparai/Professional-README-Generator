@@ -2,6 +2,7 @@
 const fs=require('fs');
 const inquirer=require('inquirer');
 const generateMarkdown=require('./generateMarkdown');
+
 // Created an array of questions for user input
 
 const generateMarkdownfile=() =>{
@@ -28,11 +29,6 @@ const generateMarkdownfile=() =>{
       message: 'How to use the project?',
     },
     {
-      type: 'input',
-      name: 'github_name',
-      message: 'Enter your github username?',
-    },
-    {
       type: 'list',
       name: 'License',
       message: 'Which license is used for the project?',
@@ -45,8 +41,13 @@ const generateMarkdownfile=() =>{
     },
     {
       type: 'input',
-      name: 'test',
+      name: 'tests',
       message: 'How to test this project?',
+    },
+    {
+      type: 'input',
+      name: 'github_name',
+      message: 'Enter your github username?',
     },
     {
       type: 'input',
@@ -61,6 +62,8 @@ const generateMarkdownfile=() =>{
   //   const readmePageContent =generateMarkdownfile(useranswers);
   const readmePageContent=generateMarkdown(useranswers)
    //console.log(generateMarkdown(useranswers))
+
+   //writefile fuction to write the answers given by the user to the prompt to the README file
    fs.writeFile('./utils/Output/README.md',readmePageContent, (err) =>
   err ? console.log(err) : console.log('Successfully created README.Md!')
   );

@@ -1,25 +1,28 @@
 
   ##Title
-  # jjk
+  # Professional Reame Generator
  ##Description
-  # \nhh
+  # This application creates a high quality,professional README file depending on the series of questions answered by the user in the command line interface using Node.Js
   ##Table of Contents 
-  - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribution](#Contribution)
-  - [Testing](#testing)
-  - [Additional Info](#additional-Info)
+  - [Tests](#tests)
+  - [Questions](#Questions)
 
   ##Installation
-  # hji\\
-  # dxsd
-
- # [github username](https://github.com/xdsa)
-
+  # npm inquirer needs to be installed
+  ##Usage
+  # Answer the questions in order to generate professional README file
+  ##Contribution
+  # Anyone can contribute to this project provided send your code for review
+  ##License
   # [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  # cds
-  # sdd
-  # sas
+  ##Questions
+ # [github username](https://github.com/https://github.com/HarmanBoparai)
+ # erharmanboparai@gmail.com
+  ##Tests
+  # Use npm test
+ 
 
 
