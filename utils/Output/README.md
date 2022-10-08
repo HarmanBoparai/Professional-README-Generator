@@ -1,6 +1,6 @@
 
   ##Title
-  # Professional Reame Generator
+  # Professional Readme Generator
  ##Description
   # This application creates a high quality,professional README file depending on the series of questions answered by the user in the command line interface using Node.Js
   ##Table of Contents 
