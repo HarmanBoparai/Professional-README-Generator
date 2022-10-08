@@ -8,7 +8,7 @@
   - [Usage](#usage)
   - [Contribution](#Contribution)
   - [Testing](#testing)
-  - [Additional Info](#additional-Info)
+  - [Questions](#questions)
 
   ##Installation
   # install npm inquirer and it require fs
