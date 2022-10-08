@@ -1,8 +1,8 @@
-// TODO: Include packages needed for this application
+//  Packages needed for this application
 const fs=require('fs');
 const inquirer=require('inquirer');
 const generateMarkdown=require('./generateMarkdown');
-// TODO: Create an array of questions for user input
+// Created an array of questions for user input
 
 const generateMarkdownfile=() =>{
   inquirer
@@ -43,6 +43,19 @@ const generateMarkdownfile=() =>{
       name: 'Contribution',
       message: 'How to contribute to this project?',
     },
+    {
+      type: 'input',
+      name: 'test',
+      message: 'How to test this project?',
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'Do you want to include your email?',
+    },
+
+
+    
   ]).then((useranswers) =>{
     console.log(useranswers)
   //   const readmePageContent =generateMarkdownfile(useranswers);
@@ -56,7 +69,7 @@ const generateMarkdownfile=() =>{
 
  
 
-// TODO: Create a function to initialize app
+// A function to initialize app
 function init() {
   generateMarkdownfile()
   
