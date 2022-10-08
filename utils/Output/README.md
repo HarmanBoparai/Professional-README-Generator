@@ -1,28 +1,27 @@
 
   ##Title
-  # Professional Readme Generator
+  # Professional README Generator
  ##Description
-  # This application creates a high quality,professional README file depending on the series of questions answered by the user in the command line interface using Node.Js
+  # It generates professional README file
   ##Table of Contents 
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribution](#Contribution)
-  - [Tests](#tests)
-  - [Questions](#Questions)
+  - [Testing](#testing)
+  - [Additional Info](#additional-Info)
 
   ##Installation
-  # npm inquirer needs to be installed
+  # install npm inquirer and it require fs
   ##Usage
-  # Answer the questions in order to generate professional README file
-  ##Contribution
-  # Anyone can contribute to this project provided send your code for review
+  # user answers the prompt questions depending on user's answers then professional README file is generated
   ##License
-  # [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  ##Questions
- # [github username](https://github.com/https://github.com/HarmanBoparai)
- # erharmanboparai@gmail.com
+  # [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  ##Contribution
+  # Anyone can contribute to this project ,please send your code for review
   ##Tests
-  # Use npm test
- 
+  # run npm test 
+  ##Questions
+ # [github username](https://github.com/HarmanBoparai)
+ # erharmanboparai@gmail.com
 
 
